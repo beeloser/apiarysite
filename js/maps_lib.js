@@ -46,6 +46,7 @@
             zoom: this.defaultZoom,
             minZoom: 9,
             maxZoom: 13,
+            streetViewControl: false,
             center: this.map_centroid,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
