@@ -45,8 +45,8 @@
         this.myOptions = {
             zoom: this.defaultZoom,
             minZoom: 9,
-            maxZoom: 13,
-            streetViewControl: false,
+            // maxZoom: 13,
+            streetViewControl: true,
             center: this.map_centroid,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
